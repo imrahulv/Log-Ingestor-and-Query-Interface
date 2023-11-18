@@ -92,7 +92,7 @@ npm start
 ![App Screenshot](media/timestamp.png)
 
 5. Search logs based on full-text search
-![App Screenshot](media/demo.png)
+![App Screenshot](media/demo4.png)
 
 ### Using Elasticsearch
 
