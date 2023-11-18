@@ -94,7 +94,7 @@ npm start
 5. Search logs based on full-text search
 ![App Screenshot](media/demo4.png)
 
-### Using Elasticsearch
+### Why Elasticsearch
 
 Elasticsearch is a powerful and versatile search and analytics engine. It is chosen for applications dealing with logs and searching due to its exceptional full-text search capabilities, flexibility, scalability, and rich set of features tailored for handling and analyzing log data efficiently.
 
