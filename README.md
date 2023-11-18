@@ -50,6 +50,9 @@ Make sure you have the following installed on your system:
 ### How to run Log Ingestor and Query Interface
 
 1. Clone the repository from GitHub:
+```bash
+https://github.com/imrahulv/Log-Ingestor-and-Query-Interface
+```
 
 2. Install dependencies for both the server and client:
 
@@ -86,13 +89,13 @@ npm start
 ![App Screenshot](media/demo1.png)
 
 3. Search logs based on combination of filters using dynamic addition and removal of filters
-![App Screenshot](media/demo3.png)
+![App Screenshot](media/demo2.png)
 
 4. Search logs based on timestamp
 ![App Screenshot](media/timestamp.png)
 
 5. Search logs based on full-text search
-![App Screenshot](media/demo4.png)
+![App Screenshot](media/demo3.png)
 
 ### Why Elasticsearch
 
