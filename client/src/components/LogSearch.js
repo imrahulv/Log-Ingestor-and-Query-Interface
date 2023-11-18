@@ -75,6 +75,7 @@ const LogSearch = () => {
           <label className="form-label">
             Filter {index + 1}:
             <div className="d-flex">
+            <span className="me-2">Timestamp</span>
               <DatePicker
                 selected={filter.value[0]}
                 onChange={(date) => {
@@ -168,7 +169,7 @@ const LogSearch = () => {
 
       {/* Filters Section */}
       <div className="mb-4">
-        <h2>Filters</h2>
+        <h2>Filtered Search</h2>
         {filters.map((filter, index) => renderFilterValueInput(filter, index))}
         <Button onClick={handleAddFilter} className="btn btn-primary me-2">
           Add Filter
@@ -180,9 +181,9 @@ const LogSearch = () => {
 
       {/* Full-text search Section */}
       <div className="mb-4">
-        <h2>Full-text Search</h2>
+        <h2>Global Search</h2>
         <Form.Group controlId="fullTextSearch">
-          <Form.Label>Full-text search:</Form.Label>
+          <Form.Label>Searches across all the fields:</Form.Label>
           <Form.Control
             type="text"
             value={query}
@@ -198,7 +199,7 @@ const LogSearch = () => {
       <div className="mt-4">
         {logs.map((log) => (
           <div key={log._id} className="alert alert-secondary">
-            {JSON.stringify(log._source)}
+            <pre>{JSON.stringify(log._source, null, 2)}</pre>
           </div>
         ))}
       </div>
