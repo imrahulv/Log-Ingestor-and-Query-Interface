@@ -50,6 +50,9 @@ Make sure you have the following installed on your system:
 ### How to run Log Ingestor and Query Interface
 
 1. Clone the repository from GitHub:
+```bash
+https://github.com/imrahulv/Log-Ingestor-and-Query-Interface
+```
 
 2. Install dependencies for both the server and client:
 
