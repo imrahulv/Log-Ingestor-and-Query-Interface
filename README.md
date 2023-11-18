@@ -64,7 +64,10 @@ npm install
 cd client
 npm install
 ```
-3. Run Elastic Search on your machine.
+3. Run Elastic Search on your machine. And add the elastic search url in your `log-injestor.js` file.
+```bash
+const esClient = new Client({ node: 'http://localhost:9200' });
+```
 
 4. For running the log injestor, navigate to the `server` directory and start the log injestor:
 
